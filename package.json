@@ -1,0 +1,28 @@
+{
+  "name": "cucumber-toolkit",
+  "version": "1.0.0",
+  "description": "Studio automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\"&& exit 1\"",
+    "protractor": "protractor conf.js"
+  },
+  "author": "Rehana",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "config": "^2.0.2",
+    "cucumber": "^5.1.0",
+    "os": "^0.1.1",
+    "protractor": "^5.4.4",
+    "protractor-image-comparison": "^3.9.0",
+    "protractor-screenshot-extension": "^1.0.7",
+    "selenium-webdriver": "^4.0.0-beta.3",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.4.0",
+    "protractor-cucumber-framework": "^6.2.1"
+  }
+}
