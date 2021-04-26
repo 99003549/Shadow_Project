@@ -1,0 +1,9 @@
+{
+    "report":{
+     "dir":"report/",
+     "results" :"results.json"
+    },
+    "globalTimeout" :100000,
+    "browserTimeout" :90000,
+    "url":"https://lttswebframework.azurewebsites.net"
+}
